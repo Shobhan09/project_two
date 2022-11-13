@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Area Start */
+header{
+    background-color: #4885ED;
+    width: 1320px;
+    height: 70px;
+
+}
+
+header img{
+    width: 89.73px;
+    height: 50px;
+    padding: 10px 0 0 12px;
+}
+/* Header End */
+
+/* Main Area Start */
+.container{
+    width: 1320px;
+    height: 500px;
+    background-color: #E8F0FF;
+    padding-top: 70px;
+
+}
+.row-main{
+    padding-left: 12px;
+    
+}
+
+.row-main h1{
+    font-weight: 600;
+    font-size: 48px;
+    /* line-height: 72px; */
+    width: 344px;
+    height: 216px;
+    /* padding-left: 12px; */
+}
+
+.row-main p{
+    font-weight:400px;
+    font-size: 16px;
+    /* Line height: 24px; */
+    margin-right: 807px;
+    margin-bottom: 16px;
+}
+
+.row-main a{
+    /* border: 2px solid red; */
+    background-color: #4885ED;
+    color: #fff;
+    border-radius: 46px;
+    padding: 8px 32px;
+    text-decoration: none;
+}
+
+.row-main i{
+    padding-right: 10px;
+}
+/* Main Area End */
+
+/* Team Area Start */
+.tm-hd h1{
+    /* font-family: 'Poppins';
+    font-style: normal; */
+    font-size: 48px;
+    line-height: 72px;
+    padding-left: 12px;
+    padding-right: 380px;
+}
+
+.tm-hd p{
+    padding: 0 400px 0 12px;
+}
+
+/* .about{
+    width: 350px;
+    height: 350px;
+    border-radius: 432px;
+    background-color: #4CCA77;
+    margin: 52px auto;
+}
+
+.abt{
+    text-align: center;
+}
+
+.abt i{
+    width: 46px;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+.abt .p-one{
+    width: 161px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.abt .p-two{
+    width: 290px;
+    height: 77px;
+
+} */
+
+.about{
+    width: 350px;
+    height: 350px;
+    border-radius: 432px;
+    background-color:#4CCA77;
+    margin: 52px auto;
+}
+
+.abt{
+    text-align: center;
+    padding-top: 51px;
+    color: #fff;
+}
+
+.abt i{
+    width: 46px;
+    height: 60px;
+    font-size: 52px; 
+    display: block;
+    margin: auto;
+}
+
+.abt .p-one{
+    width: 161px;
+    height: 48px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    display: inline-block;
+}
+
+.abt .p-two{
+    width: 290px;
+    height: 77px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+}
+
+.create{
+    width: 350px;
+    height: 350px;
+    border: 10px solid #4885ED;
+    border-radius: 50px 0px;
+    background-color:#4CCA77;
+    margin-left: 958px;
+
+}
+
+.house{
+    width: 350px;
+    height: 350px;
+    border: 10px solid #4885ED;
+    outline: 10px solid #DDDDDD;
+    background-color:#4CCA77;
+    margin: 52px auto;
+}
+
+.it{
+    width: 350px;
+    height: 350px;
+    border: 10px solid #4885ED;
+    border-radius: 50px 0px;
+    background-color:#4CCA77;
+    margin-left: 12px;
+}
+
+.tm{
+    width: 350px;
+    height: 350px;
+    background-color:#4885ED;
+    margin: 52px auto;
+}
+
+.img img{
+    width: 117px;
+    height: 108px;
+    border-radius: 50%;
+    border: 2px solid #4885ED;
+    outline: 2px solid #ffffff;
+
+}
+
+/* Team Area End */
+
+/* Price Area Start */
+
+.container-four{
+    height: 659px;
+    background: url(./img/price.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* Price Area End */
+
+/* Footer Area Start */
+
+footer{
+    background-color: #4885ED;
+    height: 446px;
+    color: #fff;
+}
+
+.lg img{
+    width: 150px;
+    height: 130px;
+    padding-left: 12px;
+    padding-top: 52px;
+}
+
+.p p{
+    /* color: #fff; */
+    padding: 0 660px 32px 12px;
+}
+
+.icon{
+    padding: 32px 0 55px 12px;
+    
+}
+
+.icon i{
+    width: 32px;
+    height: 32px;
+    /* color: #FFFFFF; */
+    /* font-weight: 900; */
+    font-size: 32px;
+    /* line-height: 32px; */
+    
+}
+
+.icon .fb, .tw, .in, .gt, .fig, .loc, .env{
+    display: inline-block;
+    padding-left: 9px;
+}
+
+.para p{
+    /* color: #fff; */
+    padding-top: 42px;
+    padding-left: 12px;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+span{
+    font-weight: bold;
+}
+
+/* Footer Area End */
